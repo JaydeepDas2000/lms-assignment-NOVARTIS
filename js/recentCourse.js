@@ -3,13 +3,15 @@ const recentCourse = [
         "courseName": "Anatomy and Physiology",
         "categories": "Basic Medical Sciences",
         "description": "Explore the structure and function of the human body, covering topics such as organ systems, tissues, and cellular biology.",
-        "course_img": "../assets/course img/mceclip1_1691162811.png"
+        "course_img": "../assets/course img/mceclip1_1691162811.png",
+        "progress" : 75
     },
     {
         "courseName": "Pathology Fundamentals",
         "categories": "Basic Medical Sciences",
         "description": "Learn about the nature and causes of diseases, including cellular pathology, inflammation, and immunopathology.",
-        "course_img": "../assets/course img/ImageForArticle_2145_16375579068259097.webp"
+        "course_img": "../assets/course img/ImageForArticle_2145_16375579068259097.webp",
+        "progress" : 25
     },
 ];
 
@@ -36,7 +38,7 @@ recentCourse.forEach(course => {
                             <p class="card-text">${course.description}</p>
                             <p class="card-text"><small class="text-body-secondary" style="font-weight: 300; color: #ddd !important">Category: ${course.categories}</small></p>
                             <div class="d-flex flex-row-reverse">
-                                <button type="button" class="btn btn-success">Continue Learning</button>
+                                <button type="button" class="btn btn-success" onclick="openCoursePlayground()">Continue Learning</button>
                             </div>
                         </div>
                     </div>
@@ -45,11 +47,12 @@ recentCourse.forEach(course => {
             <!--progress bar-->
             <div class="progress-bar-container">
                 <div class="progress">
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-success" role="progressbar" style="width: ${course.progress}%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
         </div>
     `;
+
 
     // Append the card to the recentCoursesList container
     recentCoursesList.appendChild(card);

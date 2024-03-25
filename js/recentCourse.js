@@ -3,14 +3,14 @@ const recentCourse = [
         "courseName": "Anatomy and Physiology",
         "categories": "Basic Medical Sciences",
         "description": "Explore the structure and function of the human body, covering topics such as organ systems, tissues, and cellular biology.",
-        "course_img": "../assets/course img/mceclip1_1691162811.png",
+        "course_img": "./assets/course img/mceclip1_1691162811.png",
         "progress" : 75
     },
     {
         "courseName": "Pathology Fundamentals",
         "categories": "Basic Medical Sciences",
         "description": "Learn about the nature and causes of diseases, including cellular pathology, inflammation, and immunopathology.",
-        "course_img": "../assets/course img/ImageForArticle_2145_16375579068259097.webp",
+        "course_img": "./assets/course img/ImageForArticle_2145_16375579068259097.webp",
         "progress" : 25
     },
 ];

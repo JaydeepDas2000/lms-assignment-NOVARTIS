@@ -3,37 +3,37 @@ const allCourse = [
       "name": "Anatomy and Physiology",
       "category": "Basic Medical Sciences",
       "description": "Explore the structure and function of the human body, covering topics such as organ systems, tissues, and cellular biology.",
-      "image": "../assets/allCourse img/1.webp"
+      "image": "./assets/allCourse img/1.webp"
     },
     {
       "name": "Pathology Fundamentals",
       "category": "Basic Medical Sciences",
       "description": "Learn about the nature and causes of diseases, including cellular pathology, inflammation, and immunopathology.",
-      "image": "../assets/allCourse img/2.webp"
+      "image": "./assets/allCourse img/2.webp"
     },
     {
       "name": "Medical Ethics and Professionalism",
       "category": "Medical Ethics and Humanities",
       "description": "Examine ethical principles and dilemmas in healthcare practice, focusing on patient autonomy, confidentiality, and informed consent.",
-      "image": "../assets/allCourse img/3.webp"
+      "image": "./assets/allCourse img/3.webp"
     },
     {
       "name": "Medical Imaging Techniques",
       "category": "Diagnostic Imaging",
       "description": "Gain insights into various medical imaging modalities such as X-ray, MRI, CT, and ultrasound, and their clinical applications.",
-      "image": "../assets/allCourse img/4.webp"
+      "image": "./assets/allCourse img/4.webp"
     },
     {
       "name": "Pediatric Care and Development",
       "category": "Pediatrics",
       "description": "Explore the unique healthcare needs of children, covering growth and development, common pediatric diseases, and preventive care.",
-      "image": "../assets/allCourse img/5.webp"
+      "image": "./assets/allCourse img/5.webp"
     },
     {
       "name": "Emergency Medicine Essentials",
       "category": "Emergency Medicine",
       "description": "Acquire essential skills for managing acute medical emergencies, including triage, resuscitation, and trauma care.",
-      "image": "../assets/allCourse img/6.webp"
+      "image": "./assets/allCourse img/6.webp"
     },
 ]
 
